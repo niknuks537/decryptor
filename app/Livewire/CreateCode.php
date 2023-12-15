@@ -7,13 +7,10 @@ use PDO;
 
 class CreateCode extends Component
 {
-    public int $count =0;
+    public string $message;
+
     public function render()
     {
         return view('livewire.create-code');
-    }
-
-    public function increment(){
-        $this->count++;
     }
 }

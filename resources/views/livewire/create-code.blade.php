@@ -1,7 +1,9 @@
-<div>
-    <p>Here is my livewire component</p>
-    {{ $count }}
+<div class="flex justify-center mt-8">
+    <form action="#" method="post">
+        <textarea wire:model.live="message" name="" id="" cols="30" rows="10" class="bg-white/10 text-white py-2 px-3 rounded-xl"></textarea>
+    </form>
+
     <p>
-        <button wire:click="increment" wire:confirm="ARE YOU SURE?!">Increment</button>
+        {{ $message }}
     </p>
 </div>

@@ -7,7 +7,7 @@
     <title>Decryptor</title>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class="pt-8 bg-primary">
     {{ $slot }}
 </body>
 </html>
